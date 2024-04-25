@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(18, 197, 197);
+    margin: 0;
+}
+
+.inpp {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.inpp input {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.inpp button {
+    padding: 0px 10px;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: rgb(87, 87, 197);
+    border: none;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+
+}
+
+ul li {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: -5%;
+    width: 103%;
+    font-size: 18px;
+
+}
+
+ul li p {
+    margin-right: 100px;
+    margin-left: 5%;
+}
+
+ul li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+ul li .fa-check{
+    background-color: rgb(179, 255, 255);
+    border: 2px solid rgb(0, 170, 255);
+    color: rgb(0, 170, 255);
+}
+
+ul li button i {
+    color: #555;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ul li .delete-btn {
+    margin-left: auto; 
+}
